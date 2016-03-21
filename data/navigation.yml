@@ -1,0 +1,25 @@
+top:
+  title: Labo3G
+  link: "#accueil"
+nav:
+  -
+    title: Actuellement
+    link: "#actuellement"
+  -
+    title: La galerie
+    link: "#lagalerie"
+  -
+    title: Le lieu
+    link: "#lieu"
+  -
+    title: L'association
+    link: "#association"
+  -
+    title: Exposer
+    link: "#exposer"
+  -
+    title: Nous soutenir
+    link: "#soutenir"
+  -
+    title: Adresse & contact
+    link: "#contact"

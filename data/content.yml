@@ -1,0 +1,89 @@
+intro:
+  h1: Labo3G
+  h2: |
+    Galerie associative<br/>
+    pour la promotion d'artistes amateurs
+  logointro: "logo-bg.svg"
+
+galerie:
+  title: "Galerie d'artistes amateurs"
+  texte: |
+    Labo3G est une association à but non-lucratif qui valorise les créations d’artistes amateurs dans un esprit de convivialité, d’échanges et de recherches.
+    <br/>
+    <br/>
+    Chaque trimestre, l'association réunit une sélection d'artistes amateurs de tous les horizons au sein d'un espace aménagée pour la mise en avant de toutes les techniques et de tous les genres&nbsp;:
+    peinture, collage, photo, vidéo, mozaïque, sculpture, installation...
+    <br/>
+    <br/>
+    Vous êtes un artiste et souhaitez exposer vos œuvres&nbsp;?
+    <a href="#" class="link">N'hésitez pas à nous contacter</a>.
+  linktexte: "Rendez-nous visite"
+  linkurl: "http://www.google.com"
+
+lieu:
+  title: "Un lieu unique"
+  texte: |
+    Labo3G vous accueille à Lille dans un espace de XXm2 unique et convivial.
+    Réaménagé à chaque exposition, les œuvres présentées sont sublimées par un éclairage aménagé et un accrochage réfléchi.
+    Venez mettre un pied dans ce cabinet de curiosité, ou l'art se mêle à une multitude d'objets étranges et inatendus.
+  image1: "1.jpg"
+  image1tag: "example"
+  image2: "1.jpg"
+  image2tag: "example"
+
+association:
+  title: "L'association"
+  texte: |
+    Labo3G est une association composée de 31 membres actifs aux rôles définis, artistes ou amateurs d'art.<br/>
+    Nous sommes constamment à la recherche de nouveaux adhérents pour nous aider dans le développement de l'activité artistique régionale. Si vous souhaitez nous rejoindre, n'hésitez pas à <a href="mailto:bonjour@labo3g.fr" class="link">nous contacter</a>.
+  linktexte: "Découvrir les membres"
+  linkurl: "http://www.google.com"
+  image1: "2.jpg"
+  image1tag: "example"
+
+exposer:
+  title: "Exposer"
+  texte: |
+    Vous êtes artiste et souhaitez prendre part à nos prochaines expositions&nbsp;?<br/>
+    Labo3g tient à simplifier la tâche à tous, et à vous faire bénéficier pleinement des ventes que vous réaliserez.
+    Seul un pourcentage de 10% des ventes de vos œuvres sera reversé à l'association afin de couvrir les frais liés à l'exposition.
+    Et, si vous ne vendez rien, nous ne vous demandons rien&nbsp;!
+    <br/>
+    <br/>
+    Pour exposer, envoyez-nous un email avec quelques aperçus de vos travaux&nbsp;:<br/>
+    <a href="mailto:bonjour@labo3g.fr" class="link">bonjour@labo3g.fr</a><br/>
+    ou passez nous voir directement&nbsp;!
+  linktexte: "Contactez-nous"
+  linkurl: "http://www.google.com"
+  image1: "3.jpg"
+  image1tag: "example"
+
+soutenir:
+  title: "Soutenir l'association"
+  texte:  |
+    In ante nisi, luctus quis dui eget, sodales fermentum arcu.
+    Mauris maximus mi quis odio ullamcorper, vel pulvinar diam blandit.
+    Sed dignissim ipsum odio, non pulvinar leo rhoncus eu. In hac habitasse platea dictumst.
+    Ut erat augue, feugiat id orci quis, pharetra iaculis velit. Fusce a ipsum varius, luctus quam sed,
+    pulvinar mauris. Mauris purus nulla, suscipit eu nunc efficitur, imperdiet volutpat orci.
+    Proin ultricies sagittis risus sed fermentum. Mauris fermentum bibendum mollis.
+    Pellentesque suscipit lacus a risus rhoncus, sit amet ornare ante viverra.
+    Nunc id massa blandit, faucibus nulla nec, dignissim sem. Suspendisse ultricies blandit posuere.
+  linktexte: "Faire un don"
+  linkurl: "http://www.google.com"
+  image1: "4.jpg"
+  image1tag: "example"
+
+contact:
+  title: "Contactez-nous"
+  texte: |
+    Venez boire un café en notre compagnie à l'adresse&nbsp;:
+  adresse: |
+    <b>Galerie Labo 3G</b><br/>
+    280 rue des blancs manteaux<br/>
+    5900 Lille<br/>
+    Métro&nbsp;: Fives (à 1min de la station)
+  mail: |
+    Ou écrivez-nous un petit mot à <a href="mailto:bonjour@labo3g.fr" class="link">bonjour@labo3g.fr</a><br/>
+  image1: "5.jpg"
+  image1tag: "example"

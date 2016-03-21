@@ -1,0 +1,7 @@
+site:
+  title: "Labo 3G"
+  introduction: Test
+  i18n: fr
+  url: http://labo3g.fr/
+  domain: labo3g.fr/
+  author: Grégoire Dierendonck
