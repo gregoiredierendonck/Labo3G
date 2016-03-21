@@ -1,0 +1,15 @@
+---
+title: Labo 3G
+description: test
+keywords: test
+changefreq: "monthly"
+priority: "1"
+---
+
+div id="accueil"
+	div class="content"
+		h1
+			= image_tag "#{data.settings.logowhite}", alt: "#{data.settings.site.title}", class: 'columns-1'
+			br
+			= data.content.h1
+		h2 = data.content.h2
