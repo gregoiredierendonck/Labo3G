@@ -7,25 +7,31 @@
   background-image: image-url("image-accueil.jpg");
   background-size: cover;
   background-position: center;
-  padding: 60px 0 90px;
+  padding: 0 0 21vh;
+  margin-bottom: -20vh;
+  .content {
+    padding: 9vh 10%;
+  }
   h1, h2 {
     width: 100%;
     display: inline-block;
     color: $white;
     text-align: center;
-    margin: 20px 0;
   }
   h1 {
     font-size: 76px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
     img {
       width: 100%;
       max-width: 100px;
       display:inline-block;
-      margin: 60px 0 50px;
     }
   }
   h2 {
     font-size: 30px;
     font-style: italic;
+    line-height: 120%;
+    margin-bottom: 0;
   }
 }

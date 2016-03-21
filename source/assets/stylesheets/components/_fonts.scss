@@ -1,10 +1,23 @@
 body {
   font-family: $primary-font;
   font-size: $font-normal;
-  line-height: $line-height-base;
+  line-height: $line-height-l;
   font-weight: $font-m;
 }
 
+.center {text-align: center;}
+
 h1, h2, h3, h4 {
   font-family: $secondary-font;
+  line-height: $line-height-m;
+  color: $c1;
+}
+
+h2, .h2 {
+	font-size: 68px;
+	margin-bottom: 30px;
+	&.small {
+		font-size: 36px;
+		font-style: italic;
+	}
 }

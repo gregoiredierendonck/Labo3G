@@ -1,9 +1,21 @@
 body {
 	background-color: $white;
+	img {width: 100%;}
 
   section, #accueil {
     width: 100%;
     height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .box {
+  	width: 90%;
+  	max-width: $max-width;
+  	padding: $section-padding;
+  	box-shadow: $box-shadow-xl;
+  	background: $white;
   }
 
 }
