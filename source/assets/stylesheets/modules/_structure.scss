@@ -16,6 +16,9 @@ body {
   	padding: $section-padding;
   	box-shadow: $box-shadow-xl;
   	background: $white;
+    &.auto {
+      width: auto;
+    }
   }
 
 }
