@@ -1,24 +1,39 @@
 body {
-	background-color: $white;
-	img {width: 100%;}
 
-  section, #accueil {
-    width: 100%;
+	background-color: $white;
+
+  section {
+    width: 90%;
+    max-width: $max-width;
     height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    &.full-width {
+      width: 100%;
+      max-width: 100%;
+    }
   }
 
   .box {
-  	width: 90%;
-  	max-width: $max-width;
+  	width: 100%;
   	padding: $section-padding;
   	box-shadow: $box-shadow-xl;
   	background: $white;
-    &.auto {
-      width: auto;
-    }
+    position: relative;
+    
+    &.auto {width: auto;}
+    
+    &.top-negativ {margin-top: - $section-padding / 2;}
+    &.bottom-negativ {margin-bottom: - $section-padding / 2;}
+    
+    &.left-align {align-self: flex-start;}
+    &.margin-left {margin-left: $section-padding;}
+
+    &.depth-1 {z-index: 10;}
+    &.depth-2 {z-index: 9;}
   }
 
 }

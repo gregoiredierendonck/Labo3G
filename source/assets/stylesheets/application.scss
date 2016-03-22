@@ -4,8 +4,11 @@
 @import "components/reset";
 @import "components/fonts";
 @import "components/buttons";
+@import "components/images";
 
 @import "modules/structure";
 @import "modules/header";
 @import "modules/intro";
-@import "modules/event";
+
+@import "custom/event";
+@import "custom/lagalerie";

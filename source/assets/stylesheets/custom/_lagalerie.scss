@@ -1,0 +1,14 @@
+#lagalerie {
+	align-items: flex-end;
+	.contener {
+		max-width: 735px;
+	}
+	.title {
+		max-width: 475px;
+		align-self: flex-start;
+	}
+	.texte {
+		width: 80%;
+		margin-left: 20%;
+	}
+}

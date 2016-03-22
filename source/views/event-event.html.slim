@@ -1,7 +1,8 @@
 section id="event"
   div class="box"
-    h1 class="h2 small center" = data.event.title
+    h1 class="h2 center"
+    	span class="small" = data.event.title
     = image_tag data.event.image, alt:"Labo3G - #{data.event.title}"
     p = data.event.texte
-  div class="box auto"
+  div class="box auto top-negativ left-align margin-left"
     = link_to data.event.linktext, "#{data.event.linkpath}", class: "button primary"

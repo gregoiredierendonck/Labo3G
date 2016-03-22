@@ -17,14 +17,17 @@ $font-l: 600;
 $font-s-m: 16px;
 $font-s-l: 18px;
 
+$line-height-s: 100%;
 $line-height-m: 120%;
-$line-height-l: 180%;
+$line-height-l: 140%;
+$line-height-xl: 180%;
 
 // NAV
 $logowidth: 80px;
 $navbarheight: 60px;
 
 // OTHERS
+.no-margin {margin: 0 !important;}
 $max-width: 1270px;
 $section-padding: 55px;
 $box-shadow-small: 0 20px 50px rgba(0, 0, 0, .1);
