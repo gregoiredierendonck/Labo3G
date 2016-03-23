@@ -19,6 +19,7 @@ body {
 
   .box {
   	width: 100%;
+    display: inline-block;
   	padding: $section-padding;
   	box-shadow: $box-shadow-xl;
   	background: $white;

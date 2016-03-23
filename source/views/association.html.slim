@@ -1,0 +1,8 @@
+section id="association" class="full-width"
+	div class="box texte"
+		h1 class="h2"
+			span class="small" = data.content.association.title.small
+			= data.content.association.title.big
+		p = data.content.association.texte
+	div class="box top-negativ auto"
+		= link_to data.content.association.linktext, "#{data.content.association.linkpath}", class:"button primary"

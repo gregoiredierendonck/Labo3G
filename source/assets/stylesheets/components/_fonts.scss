@@ -5,6 +5,13 @@ body {
   font-weight: $font-m;
 }
 
+a {
+  color: $c1;
+  text-decoration: underline;
+}
+
+.visuallyhidden {display: none;}
+
 .center {text-align: center;}
 
 h1, h2, h3, h4 {

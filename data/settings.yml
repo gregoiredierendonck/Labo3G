@@ -7,3 +7,12 @@ site:
   author: Grégoire Dierendonck
 
 logowhite: "logo-white.svg"
+
+footer:
+  copyright: "© Labo3G 2016"
+  mentions: "Mentions légales"
+  mentionspath: "mentionslegales.html"
+  credit: "Site réalisé par "
+  creditlinktext: "Grégoire Dierendonck"
+  creditlinkpath: "http://www.gregoiredierendonck.fr"
+  image: "image-newsletter.jpg"

@@ -9,10 +9,15 @@
   .h2 span.small {display: inline;}
   p {padding-right: 10vw;}
   .imagecontener {
-    display: flex;
-    align-self: flex-end;
+    width: 100%;
+    align-self: center;
     margin-left: -10vw;
-    margin-bottom: $section-padding;
+    padding-top: $section-padding;
+    img {
+      width: calc(50% - #{$image-margin / 2});
+      margin-bottom: 0;
+      &:last-child {margin: 0;}
+    }
   }
   .button {margin-top: 50px;}
 }

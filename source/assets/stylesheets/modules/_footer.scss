@@ -1,0 +1,25 @@
+$footerimageheight: 40vh;
+
+footer {
+	margin-top: - $footerimageheight / 2;
+	.footer-infos {
+		width: 100%;
+		display: inline-block;
+		background-color: $white;
+		padding: 20px;
+		font-size: 12px;
+		text-align: center;
+		span {
+			margin: 0 5px;
+		}
+	}
+	.footer-image {
+		width: 100%;
+		height: $footerimageheight;
+		display: inline-block;
+		vertical-align: bottom;
+		background-image: image-url("image-newsletter.jpg");
+		background-size: cover;
+		background-position: center bottom;
+	}
+}

@@ -1,0 +1,20 @@
+#association {
+	padding: $section-padding * 2;
+	margin: $section-padding 0;
+	background-image: image-url("image-association.jpg");
+	background-size: cover;
+	background-position: center;
+	align-items: center;
+	.h2 {text-align: center;}
+	.box {
+		&.texte {
+			width: 80%;
+			max-width: 680px;
+			padding: $section-padding $section-padding $section-padding * 1.5;
+			span {
+				width: auto;
+				display: inline;
+			}
+		}
+	}
+}
