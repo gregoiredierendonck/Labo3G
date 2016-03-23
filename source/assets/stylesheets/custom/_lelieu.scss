@@ -1,0 +1,18 @@
+#lelieu {
+  flex-direction: row;
+  margin-top: -5vh;
+  .box {
+    width: 100%;
+    max-width: 945px;
+    left: 5%;
+  }
+  .h2 span.small {display: inline;}
+  p {padding-right: 10vw;}
+  .imagecontener {
+    display: flex;
+    align-self: flex-end;
+    margin-left: -10vw;
+    margin-bottom: $section-padding;
+  }
+  .button {margin-top: 50px;}
+}

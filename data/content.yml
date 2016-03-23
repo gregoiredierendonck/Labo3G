@@ -2,15 +2,45 @@ h1: "Labo3G"
 h2: " Galerie associative <br/>pour la promotion d'artistes amateurs"
 
 lagalerie:
-  title: 
+  title:
     small: "Galerie d'"
     big: "Artistes Amateurs"
   texte: |
-    Labo3G est une association à but non-lucratif 
-    qui valorise les créations d’artistes amateurs 
-    dans un esprit de convivialité, d’échanges et de recherches.  
-    Chaque trimestre, l'association réunit une sélection 
-    d'artistes amateurs de tous les horizons 
-    au sein d'un espace aménagée pour la mise en avant 
-    de toutes les techniques et de tous les genres : 
-    peinture, collage, photo, vidéo, mozaïque, sculpture, installation... 
+    Labo3G est une association à but non-lucratif
+    qui valorise les créations d’artistes amateurs
+    dans un esprit de convivialité, d’échanges et de recherches. 
+    Chaque trimestre, l'association réunit une sélection
+    d'artistes amateurs de tous les horizons
+    au sein d'un espace aménagée pour la mise en avant
+    de toutes les techniques et de tous les genres :
+    peinture, collage, photo, vidéo, mozaïque, sculpture, installation...
+  images:
+    -
+      path: "image-galerie-1.jpg"
+      title: "Galerie 1"
+    -
+      path: "image-galerie-2.jpg"
+      title: "Galerie 2"
+    -
+      path: "image-galerie-3.jpg"
+      title: "Galerie 3"
+
+lelieu:
+  title:
+    small: "Un "
+    big: "Lieu unique"
+  texte: |
+    Labo3G vous accueille à Lille dans un espace de XXm2 unique et convivial.
+    Réaménagé à chaque exposition, les œuvres présentées sont sublimées
+    par un éclairage aménagé et un accrochage réfléchi.
+    Venez vous immerger dans ce cabinet de curiosité,
+    ou l'art se mêle à une multitude d'objets étranges et inattendus.
+  linkpath: "#contact"
+  linktext: "Nous rendre visite"
+  images:
+    -
+      path: "image-lieu-1.jpg"
+      title: "Le lieu 1"
+    -
+      path: "image-lieu-2.jpg"
+      title: "Le lieu 2"

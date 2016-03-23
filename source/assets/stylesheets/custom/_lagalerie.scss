@@ -1,5 +1,7 @@
 #lagalerie {
-	align-items: flex-end;
+	align-items: flex-start;
+	flex-direction: row;
+	margin-top: - $section-padding / 2;
 	.contener {
 		max-width: 735px;
 	}
@@ -10,5 +12,20 @@
 	.texte {
 		width: 80%;
 		margin-left: 20%;
+	}
+	.contener {
+		width: 100%;
+		max-width: 740px;
+		margin-left: -20%;
+	}
+	.imagecontener {
+		width: 100%;
+		max-width: 795px;
+		margin-top: 10vh;
+		img {
+			&:first-of-type {float: right;}
+			&:nth-of-type(2) {width: calc(40% - #{$image-margin});}
+			&:nth-of-type(3) {width: calc(60% - #{$image-margin});}
+		}
 	}
 }

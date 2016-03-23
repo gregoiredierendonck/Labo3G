@@ -23,17 +23,17 @@ body {
   	box-shadow: $box-shadow-xl;
   	background: $white;
     position: relative;
-    
-    &.auto {width: auto;}
-    
-    &.top-negativ {margin-top: - $section-padding / 2;}
-    &.bottom-negativ {margin-bottom: - $section-padding / 2;}
-    
-    &.left-align {align-self: flex-start;}
-    &.margin-left {margin-left: $section-padding;}
-
-    &.depth-1 {z-index: 10;}
-    &.depth-2 {z-index: 9;}
   }
+
+  .auto {width: auto;}
+
+  .top-negativ {margin-top: - $section-padding / 2;}
+  .bottom-negativ {margin-bottom: - $section-padding / 2;}
+
+  .left-align {align-self: flex-start;}
+  .margin-left {margin-left: $section-padding;}
+
+  .depth-1 {z-index: 10;}
+  .depth-2 {z-index: 9;}
 
 }

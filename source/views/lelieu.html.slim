@@ -1,0 +1,13 @@
+section id="lelieu"
+
+  div class="contener" class="depth-2"
+    div class="box"
+      h1 class="h2"
+        span class="small" = data.content.lelieu.title.small
+        = data.content.lelieu.title.big
+      p = data.content.lelieu.texte
+      = link_to data.content.lelieu.linktext, "#{data.content.lelieu.linkpath}", class:"button primary"
+
+  div class="imagecontener" class="depth-1"
+    - data.content.lelieu.images.each_with_index do |image|
+      = image_tag "#{image.path}", alt: "#{data.settings.site.title} - #{image.title}"
