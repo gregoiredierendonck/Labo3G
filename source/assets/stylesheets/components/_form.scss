@@ -1,0 +1,22 @@
+form {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+	input {
+		width: 100%;
+		font-size: $font-s-l;
+		padding: 0 0 0 30px;
+		outline: none;
+		border: none;
+		box-shadow: inset 2px 0 0 $white, inset 2px 0 0 2px $c1, inset 8px 6px 0 rgba($c1, .3);
+		&:focus {
+			box-shadow: inset 2px 0 0 $white, inset 2px 0 0 2px $c1, 4px 4px 0 rgba($c1, .3);
+		}
+	}
+	::-webkit-input-placeholder {font-style: italic; color: $gray;font-weight: $font-s;font-size: $font-s-m;}
+	::-moz-placeholder {font-style: italic; color: $gray;font-weight: $font-s;font-size: $font-s-m;}
+	:-ms-input-placeholder {font-style: italic; color: $gray;font-weight: $font-s;font-size: $font-s-m;}
+	:-moz-placeholder {font-style: italic; color: $gray;font-weight: $font-s;font-size: $font-s-m;}
+}

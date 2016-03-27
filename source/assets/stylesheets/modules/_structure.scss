@@ -11,10 +11,6 @@ body {
     justify-content: center;
     flex-direction: column;
     margin: 0 auto;
-    &.full-width {
-      width: 100%;
-      max-width: 100%;
-    }
   }
 
   .box {
@@ -26,8 +22,11 @@ body {
     position: relative;
   }
 
+  .row {display: flex;}
+  .full-width {width: 100%;max-width: 100%;}
   .auto {width: auto;}
 
+  .no-margin {margin: 0;}
   .top-negativ {margin-top: - $section-padding / 2;}
   .bottom-negativ {margin-bottom: - $section-padding / 2;}
 

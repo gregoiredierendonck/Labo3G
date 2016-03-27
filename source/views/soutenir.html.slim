@@ -1,0 +1,14 @@
+section id="soutenir" class="full-width"
+
+	div class="box"
+		div class="contener"
+			h1 class="h2"
+				span class="small" = data.content.soutenir.title.small
+				= data.content.soutenir.title.big
+			p = data.content.soutenir.texte
+	div class="box auto top-negativ"
+		= link_to data.content.soutenir.linktext, "#{data.content.soutenir.linkpath}", class:"button primary"
+
+	div class="imagecontener"
+		- data.content.soutenir.images.each_with_index do |image|
+			= image_tag "#{image.path}", alt: "#{data.settings.site.title} - #{image.title}"

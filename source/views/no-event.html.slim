@@ -1,0 +1,11 @@
+section id="noevent"
+  
+  div class="box"
+    h1 class="h2 center"
+		span class="small" = data.content.noevent.title.small
+		= data.content.noevent.title.big
+    p class="center" = data.content.noevent.texte
+    form action="#{data.settings.mailchimp}" method="post" target="_blank"
+		input type="email" name="EMAIL" placeholder="#{data.content.newsletter.placeholder}" required="" autocapitalize="none" autocorrect="off"
+		button type="submit" name="subscribe" class="button primary"
+			= data.content.newsletter.linktext

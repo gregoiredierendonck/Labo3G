@@ -1,0 +1,22 @@
+#contact {
+	p {
+		width: 60%;
+		padding-right: 10%;
+	}
+	.box {
+		width: 100%;
+		max-width: 600px;
+		align-self: flex-start;
+		margin-bottom: - 20vh;
+	}
+	.row {align-items: center;}
+	.imagecontener {
+		width: 100%;
+		margin-bottom: 5vh;
+		img {
+			width: 80%;
+			float: right;
+		}
+	}
+	p + .button {margin-top: 0;}
+}

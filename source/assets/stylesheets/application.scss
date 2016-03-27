@@ -4,6 +4,7 @@
 @import "components/reset";
 @import "components/fonts";
 @import "components/buttons";
+@import "components/form";
 @import "components/images";
 
 @import "modules/structure";
@@ -12,6 +13,12 @@
 @import "modules/intro";
 
 @import "custom/event";
+@import "custom/noevent";
 @import "custom/lagalerie";
 @import "custom/lelieu";
-@import "custom/association"
+@import "custom/association";
+@import "custom/exposer";
+@import "custom/soutenir";
+@import "custom/adresse";
+@import "custom/contact";
+@import "custom/newsletter";

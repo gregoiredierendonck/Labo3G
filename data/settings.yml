@@ -5,8 +5,8 @@ site:
   url: http://labo3g.fr/
   domain: labo3g.fr/
   author: Grégoire Dierendonck
-
-logowhite: "logo-white.svg"
+  email: "bonjour@labo3g.fr"
+  mapspath: "http://www.google.fr"
 
 footer:
   copyright: "© Labo3G 2016"
@@ -16,3 +16,6 @@ footer:
   creditlinktext: "Grégoire Dierendonck"
   creditlinkpath: "http://www.gregoiredierendonck.fr"
   image: "image-newsletter.jpg"
+
+logowhite: "logo-white.svg"
+mailchimp: ""

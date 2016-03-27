@@ -1,0 +1,40 @@
+#exposer {
+	.contener {
+		width: 100%;
+		max-width: $max-width;
+		display: flex;
+		align-items: center;
+		padding: 0 5vw;
+	} 
+	.texte {
+		width: calc(100% - 5vw);
+		margin-right: 5vw;
+	}
+	.buttonbox {
+		min-width: 340px;
+	}
+	.title {
+		align-self: flex-start;
+		.h2 {
+			span.small {
+				display: inline;
+			}
+		}
+	}
+	.imagecontener {
+		display: flex;
+		.zone {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			& img:nth-of-type(2) {
+				width: 80%;
+				margin-right: 20%;
+			}
+		}
+	}
+	.content {
+		margin-top: -80vh;
+		margin-bottom: 40vh;
+	}
+}

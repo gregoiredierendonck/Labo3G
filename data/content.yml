@@ -1,6 +1,14 @@
 h1: "Labo3G"
 h2: " Galerie associative <br/>pour la promotion d'artistes amateurs"
 
+noevent: 
+  title:
+    small: "Il n’y a pas exposition pour le moment"
+    big: "Labo3G vous donne rendez-vous en mai pour sa prochaine exposition"
+  texte: |
+    Nous sommes actuellement en train de préparer notre prochaine exposition… 
+    Entrez votre adresse email et nous vous enverrons une invitation !
+
 lagalerie:
   title:
     small: "Galerie d'"
@@ -58,8 +66,8 @@ association:
     Nous sommes constamment à la recherche de nouveaux adhérents 
     pour nous aider dans le développement de l'activité artistique régionale. 
     Vous souhaitez participez à l’aventure ? Écrivez-nous un email en nous décrivant votre profil !
-  linktext: "Rejoindre l'association"
-  linkpath: "mailto:bonjour@labo3g.fr"
+  linktext: "Découvrir les membres"
+  linkpath: "membres.html"
 
 exposer:
   title:
@@ -73,18 +81,72 @@ exposer:
     La démarche à suivre ne pourrait être plus simple&nbsp;: 
     envoyer nous par email vos coordonnées, une présentation de vous 
     et un aperçu des travaux que vous souhaitez exposer… 
-    Nous reviendrons vers vous pour organiser votre exposition !
-  linkpath: "mailto:bonjour@labo3g.fr"
+    Nous reviendrons vers vous pour organiser votre exposition&nbsp;!
   linktext: "Exposer à la galerie"
+  image1:
+    path: "image-exposer-1.jpg"
+    title: "exposer-1"
+  image2:
+    path: "image-exposer-2.jpg"
+    title: "exposer-2"
+  image3:
+    path: "image-exposer-3.jpg"
+    title: "exposer-3"
+
+soutenir:
+  title:
+    small: "Notre concept vous plait&nbsp;? "
+    big: "Soutenir la galerie"
+  texte: |
+    Chaque euro reversé à la galerie sera investi dans des solutions d’accrochage 
+    et d’aménagement de l’espace afin de faire rayonner 
+    comme il se doit la création artistique lilloise&nbsp;!
+  linkpath: "http://www.google.com"
+  linktext: "Faire un don"
   images: 
     -
-      path: "image-exposer-1.jpg"
-      title: "exposer-1"
+      path: "image-soutenir-1.jpg"
+      title: "soutenir-1"
+
+adresse:
+  title:
+    small: "À Lille, au cœur de Fives, "
+    big: "Venir à la galerie"
+  texte: |
+    La galerie Labo3g se fait un plaisir de vous accueillir pendant les périodes d’exposition 
+    les mercredi et les week-end de 10h00 à 18h00 à Lille, à 1min à pied de la station 
+    de Métro “Lille Fives”, au<br/>
+    <span class="">
+    Galerie Labo3G<br/>
+    15, rue de Lannoy<br/>
+    59000 Lille
+    </span>
+  linktext: "Voir sur une carte"
+  images: 
+      path: "image-contact-1.jpg"
+      title: "adresse-1"
+
+contact:
+  title:
+    small: "Envie de discuter&nbsp;? "
+    big: "Nous contacter"
+  texte: |
+    Besoin d’informations supplémentaire ? Envi de discuter d’un projet ? 
+    Nous sommes à votre disposition par email… 
+    Laissez-nous votre message, nous reviendrons vers vous au plus vite.
+  linktext: "Nous contacter"
+  images: 
     -
-      path: "image-exposer-2.jpg"
-      title: "exposer-2"
-    -
-      path: "image-exposer-3.jpg"
-      title: "exposer-3"
+      path: "image-contact-2.jpg"
+      title: "contact-1"
+
+newsletter:
+  title:
+    small: "Toute l'actualité Labo3G "
+    big: "Notre Newsletter"
+  texte: |
+    Recevez toute l’actualité Labo3G dans votre boîte mail... Que du bonheur !
+  placeholder: "Renseignez votre adresse email…"
+  linktext: "S'abonner"
 
 

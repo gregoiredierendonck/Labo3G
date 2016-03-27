@@ -1,0 +1,13 @@
+section id="adresse"
+
+  div class="box bottom-negativ depth-1"
+    h1 class="h2"
+      span class="small" = data.content.adresse.title.small
+      = data.content.adresse.title.big
+  div class="box depth-2"
+    p = data.content.adresse.texte
+    = link_to data.content.adresse.linktext, "#{data.settings.site.mapspath}", class:"button primary"
+
+  div class="imagecontener"
+    = link_to data.settings.site.mapspath, target: '_blank' do
+      = image_tag data.content.adresse.images.path, alt: "#{data.settings.site.title} - #{data.content.adresse.images.title}"
