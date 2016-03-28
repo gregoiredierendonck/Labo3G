@@ -1,24 +1,19 @@
 #exposer {
-	.contener {
+	position: relative;
+	margin-bottom: 5vh;
+	.contentcontener {
 		width: 100%;
-		max-width: $max-width;
+		max-width: 600px;
+		height: 100%;
 		display: flex;
-		align-items: center;
-		padding: 0 5vw;
-	} 
-	.texte {
-		width: calc(100% - 5vw);
-		margin-right: 5vw;
-	}
-	.buttonbox {
-		min-width: 340px;
-	}
-	.title {
-		align-self: flex-start;
-		.h2 {
-			span.small {
-				display: inline;
-			}
+		flex-direction: column;
+		justify-content: center;
+		position: absolute;
+		top: 0;
+		right: 10%;
+		.title {
+			margin-left: -5vw;
+			display: table;
 		}
 	}
 	.imagecontener {
@@ -32,9 +27,5 @@
 				margin-right: 20%;
 			}
 		}
-	}
-	.content {
-		margin-top: -80vh;
-		margin-bottom: 40vh;
 	}
 }

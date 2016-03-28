@@ -1,12 +1,13 @@
 #noevent {
-	margin-bottom: 6vh;
+	margin-bottom: 10vh;
 	.box {padding: $section-padding $section-padding ($section-padding * 1.5);}
 	h2, .h2 {
 		width: 100%;
 		max-width: 900px;
 		margin: 0 auto;
-		font-size: 52px;
+		font-size: 36px;
 		span.small {
+			font-size: 28px;
 			margin-bottom: 10px;
 		}
 	}

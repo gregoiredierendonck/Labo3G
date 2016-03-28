@@ -6,15 +6,12 @@ section id="exposer"
 		div class="zone"
 			= image_tag data.content.exposer.image2.path, alt: "#{data.settings.site.title} - #{data.content.exposer.image2.title}"
 			= image_tag data.content.exposer.image3.path, alt: "#{data.settings.site.title} - #{data.content.exposer.image3.title}"
-
-	div class="content"
+		
+	div class="contentcontener"
 		div class="box title auto bottom-negativ depth-1"
 			h1 class="h2 no-margin"
 				= data.content.exposer.title.big
 				span class="small" = data.content.exposer.title.small
-
-		div class="contener depth-2"
-			div class="box texte"
-				p = data.content.exposer.texte
-			div class="box buttonbox auto"
-				= link_to data.content.exposer.linktext, "mailto:#{data.settings.site.email}", class:"button primary"
+		div class="box texte depth-2"
+			p = data.content.exposer.texte
+			= link_to data.content.exposer.linktext, "mailto:#{data.settings.site.email}", class:"button primary"
