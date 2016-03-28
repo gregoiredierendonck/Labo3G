@@ -145,8 +145,8 @@ newsletter:
     small: "Toute l'actualité Labo3G "
     big: "Notre Newsletter"
   texte: |
-    Recevez toute l’actualité Labo3G dans votre boîte mail... Que du bonheur !
-  placeholder: "Renseignez votre adresse email…"
+    Recevez toute l’actualité Labo3G dans votre boîte mail... Que du bonheur&nbsp;!
+  placeholder: "Votre adresse email…"
   linktext: "S'abonner"
 
 

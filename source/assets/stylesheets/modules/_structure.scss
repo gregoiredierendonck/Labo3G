@@ -20,10 +20,13 @@ body {
   	box-shadow: $box-shadow-xl;
   	background: $white;
     position: relative;
+    @media screen and (max-width: $media-m) {
+      padding: $section-padding / 1.5;
+    }
   }
 
   .row {display: flex;}
-  .full-width {width: 100%;max-width: 100%;}
+  .full-width {width: 100%; max-width: 100%;}
   .auto {width: auto;}
 
   .no-margin {margin: 0;}

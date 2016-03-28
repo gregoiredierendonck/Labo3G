@@ -1,12 +1,30 @@
 #adresse {
 	position: relative;
 	margin-bottom: -15vh;
+	@media screen and (max-width: $media-xl) {
+		margin-bottom: 5vh;
+	}
+	@media screen and (max-width: $media-m) {
+		margin-bottom: 10vh;
+	}
 	.box {
 		width: 100%;
 		max-width: 530px;
 		align-self: flex-end;
 		&:first-of-type {
 			margin-right: 20vw;
+		}
+		@media screen and (max-width: $media-m) {
+			width: 100%;
+			max-width: 500px;
+			margin: 0 auto;
+			text-align: center;
+			&:first-of-type {
+				box-shadow: none;
+				margin: 30vh auto -5vh;
+				padding-bottom: 0;
+			}
+			p {text-align: left;}
 		}
 	}
 	.imagecontener {
@@ -19,6 +37,20 @@
 		a {
 			margin-left: -20vw;
 			margin-top: -5vh;
+		}
+		@media screen and (max-width: $media-m) {
+			width: 110%;
+			top: 0;
+			left: -5%;
+			height: 60vh;
+			overflow: hidden;
+			a {
+				width: 100%;
+				margin: 0;
+				img {
+					width: 100%;
+				}
+			}
 		}
 	}
 	p {

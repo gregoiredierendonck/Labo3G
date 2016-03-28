@@ -32,4 +32,19 @@ h2, .h2 {
 		font-style: italic;
     white-space: nowrap;
 	}
+  @media screen and (max-width: $media-m) {
+    font-size: 54px;
+    margin-bottom: 20px;
+    span.small {
+      font-size: 28px;
+    }
+  }
+  @media screen and (max-width: $media-s) {
+    font-size: 42px;
+    margin-bottom: 15px;
+    span.small {
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+  }
 }

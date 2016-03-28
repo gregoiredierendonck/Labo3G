@@ -4,10 +4,13 @@ form {
 	width: 100%;
 	max-width: 800px;
 	margin: 0 auto;
+	@media screen and (max-width: $media-s) {
+		flex-direction: column;
+	}
 	input {
 		width: 100%;
 		font-size: $font-s-l;
-		padding: 0 0 0 30px;
+		padding: 15px 0 15px 30px;
 		outline: none;
 		border: 2px solid $c1;
 		border-right: none;
@@ -15,6 +18,16 @@ form {
 		margin: 0;
 		&:focus {
 			box-shadow: 4px 4px 0 rgba($c1, .3);
+		}
+		@media screen and (max-width: $media-s) {
+			padding: 15px 0 15px 15px;
+			border-right: 2px solid $c1;
+			margin-bottom: 10px;
+		}
+	}
+	.button {
+		@media screen and (max-width: $media-s) {
+			align-self: center;
 		}
 	}
 	::-webkit-input-placeholder {font-style: italic; color: $gray;font-weight: $font-s;font-size: $font-s-m;}

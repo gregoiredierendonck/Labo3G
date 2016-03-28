@@ -25,6 +25,9 @@
     background-color: $c1;
     color: $white;
   }
+  @media screen and (max-width: $media-s) {
+    padding: 15px 20px;
+  }
 }
 
 p + .button {
