@@ -9,13 +9,38 @@
 			width: 50%;
 			margin-bottom: 0;
 		}
+		@media screen and (max-width: $media-xl) {
+			flex-direction: column;
+			text-align: center;
+			.h2, p {
+				width: 100%;
+			}
+			.h2 {
+				margin-bottom: 15px;
+			}
+		}
 	}
 	.imagecontener {
 		width: 100%;
 		margin-top: -40vh;
 		margin-bottom: 10vh;
+		text-align: center;
 		img {
 			margin-left: 10vw;
+			@media screen and (max-width: $media-m) {
+				float: none;
+				margin: 0;
+			}
+		}
+		@media screen and (max-width: $media-s) {
+			margin-top: -30vh;
+		}
+	}
+	@media screen and (max-width: $media-xl) {
+		.box {
+			&:nth-of-type(2) {
+				padding: ($section-padding / 1.5) $section-padding;
+			}
 		}
 	}
 }
