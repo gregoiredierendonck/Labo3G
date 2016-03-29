@@ -30,7 +30,7 @@ h2, .h2 {
 		font-size: 36px;
     line-height: $line-height-l;
 		font-style: italic;
-    white-space: nowrap;
+    // white-space: nowrap;
 	}
   @media screen and (max-width: $media-m) {
     font-size: 54px;

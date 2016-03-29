@@ -7,7 +7,7 @@ noevent:
     big: "Labo3G vous donne rendez-vous en mai pour sa prochaine exposition"
   texte: |
     Nous sommes actuellement en train de préparer notre prochaine exposition… 
-    Entrez votre adresse email et nous vous enverrons une invitation !
+    Entrez votre adresse email et nous vous enverrons une invitation&nbsp;!
 
 lagalerie:
   title:
@@ -65,7 +65,7 @@ association:
     lorem ipsum dolore maet set acterem.
     Nous sommes constamment à la recherche de nouveaux adhérents 
     pour nous aider dans le développement de l'activité artistique régionale. 
-    Vous souhaitez participez à l’aventure ? Écrivez-nous un email en nous décrivant votre profil !
+    Vous souhaitez participez à l’aventure ? Écrivez-nous un email en nous décrivant votre profil&nbsp;!
   linktext: "Découvrir les membres"
   linkpath: "membres.html"
 
@@ -76,7 +76,7 @@ exposer:
   texte: |
     Vous avez réalisé une ou un ensemble d’œuvres et souhaitez présenter 
     vos travaux aux côtés d’autres artistes amateurs au sein de notre galerie&nbsp;? 
-    Nous sommes constamment à la recherche de profils comme le votre !
+    Nous sommes constamment à la recherche de profils comme le votre&nbsp;!
     <br/><br/>
     La démarche à suivre ne pourrait être plus simple&nbsp;: 
     envoyer nous par email vos coordonnées, une présentation de vous 
@@ -131,7 +131,7 @@ contact:
     small: "Envie de discuter&nbsp;? "
     big: "Nous contacter"
   texte: |
-    Besoin d’informations supplémentaire ? Envi de discuter d’un projet ? 
+    Besoin d’informations supplémentaire ? Envi de discuter d’un projet&nbsp;? 
     Nous sommes à votre disposition par email… 
     Laissez-nous votre message, nous reviendrons vers vous au plus vite.
   linktext: "Nous contacter"

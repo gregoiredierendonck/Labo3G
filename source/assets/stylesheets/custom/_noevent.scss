@@ -1,6 +1,11 @@
 #noevent {
 	margin-bottom: 10vh;
-	.box {padding: $section-padding $section-padding ($section-padding * 1.5);}
+	.box {
+		padding: $section-padding $section-padding ($section-padding * 1.5);
+		@media screen and (max-width: $media-s) {
+			padding: $section-padding ($section-padding / 2);
+		}
+	}
 	h2, .h2 {
 		width: 100%;
 		max-width: 900px;
@@ -13,5 +18,16 @@
 	}
 	p {
 		margin: 30px 0;
+	}
+	@media screen and (max-width: $media-s) {
+		h2, .h2 {
+			font-size: 32px;
+			span.small {
+				font-size: 22px;
+			}
+		}
+		p {
+			margin-top: 20px;
+		}
 	}
 }
