@@ -3,7 +3,7 @@
 	.box {
 		padding: $section-padding $section-padding ($section-padding * 1.5);
 		@media screen and (max-width: $media-s) {
-			padding: $section-padding ($section-padding / 2);
+			padding: ($section-padding / 1.5) ($section-padding / 2);
 		}
 	}
 	h2, .h2 {
@@ -21,9 +21,9 @@
 	}
 	@media screen and (max-width: $media-s) {
 		h2, .h2 {
-			font-size: 32px;
+			font-size: 26px;
 			span.small {
-				font-size: 22px;
+				font-size: 20px;
 			}
 		}
 		p {

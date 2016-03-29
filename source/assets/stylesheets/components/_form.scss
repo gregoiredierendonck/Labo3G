@@ -20,6 +20,9 @@ form {
 			box-shadow: 4px 4px 0 rgba($c1, .3);
 		}
 		@media screen and (max-width: $media-s) {
+			width: 110%;
+			left: -5%;
+			position: relative;
 			padding: 15px 0 15px 15px;
 			border-right: 2px solid $c1;
 			margin-bottom: 10px;

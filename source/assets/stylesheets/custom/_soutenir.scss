@@ -37,6 +37,7 @@
 		}
 		@media screen and (max-width: $media-s) {
 			margin-top: -30vh;
+			margin-bottom: $margin-small;
 		}
 	}
 	@media screen and (max-width: $media-xl) {

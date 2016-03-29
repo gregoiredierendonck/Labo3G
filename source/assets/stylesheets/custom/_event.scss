@@ -1,5 +1,15 @@
 #event {
-  max-width: $max-width - 100px;
-	.h2 {margin-top: - $section-padding / 2;}
+	max-width: $max-width - 100px;
+	.h2 {margin-top: -20px;}
 	img {margin-bottom: 20px;}
+	@media screen and (max-width: $media-m) {
+		margin-bottom: 40px;
+	}
+	@media screen and (max-width: $media-sm) {
+		margin-bottom: 60px;
+		.box:last-of-type {
+			align-self: center;
+			margin-left: 0;
+		}
+	}
 }
