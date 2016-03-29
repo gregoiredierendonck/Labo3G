@@ -7,6 +7,9 @@
 	@media screen and (max-width: $media-m) {
 		margin-bottom: 10vh;
 	}
+	@media screen and (max-width: $media-sm) {
+		margin-bottom: $margin-small;
+	}
 	.box {
 		width: 100%;
 		max-width: 530px;
@@ -21,7 +24,7 @@
 			text-align: center;
 			&:first-of-type {
 				box-shadow: none;
-				margin: 30vh auto -5vh;
+				margin: 30vh auto (- $section-padding / 2);
 				padding-bottom: 0;
 			}
 			p {text-align: left;}

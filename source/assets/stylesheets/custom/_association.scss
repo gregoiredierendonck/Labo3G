@@ -1,5 +1,7 @@
 #association {
 	padding: $section-padding * 2;
+	@media screen and (max-width: $media-l) {padding: $section-padding;}
+	@media screen and (max-width: $media-s) {padding: 100px 0 $margin-small;}
 	margin: $section-padding 0;
 	background-image: image-url("image-association.jpg");
 	background-size: cover;
@@ -14,6 +16,9 @@
 			span {
 				width: auto;
 				display: inline;
+			}
+			@media screen and (max-width: $media-l) {
+				width: 100%;
 			}
 		}
 	}

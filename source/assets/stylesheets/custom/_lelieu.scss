@@ -1,13 +1,25 @@
 #lelieu {
   flex-direction: row;
   margin-top: -5vh;
+  @media screen and (max-width: $media-xl) {margin-top: 0;}
+  @media screen and (max-width: $media-l) {
+    flex-direction: column;
+    margin-top: $margin-small;
+  }
   .box {
     width: 100%;
     max-width: 945px;
     left: 5%;
+    @media screen and (max-width: $media-l) {left: 0;}
+    @media screen and (max-width: $media-s) {text-align: center;}
   }
-  .h2 span.small {display: inline;}
-  p {padding-right: 10vw;}
+  .h2 span.small {
+    display: inline;
+  }
+  p {
+    padding-right: 10vw;
+    @media screen and (max-width: $media-s) {padding-right: 0;}
+  }
   .imagecontener {
     width: 100%;
     align-self: center;
@@ -17,6 +29,38 @@
       width: calc(50% - #{$image-margin / 2});
       margin-bottom: 0;
       &:last-child {margin: 0;}
+    }
+    @media screen and (max-width: 1100px) {
+      display: flex;
+      flex-direction: column;
+      width: auto;
+      padding-left: 20px;
+      img {
+        margin: 0 0 20px 0;
+        width: auto;
+        max-width: 100%;
+        align-self: flex-start;
+      }
+    }
+    @media screen and (max-width: $media-l) {
+      flex-direction: row;
+      width: 100%;
+      padding: 0;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+      img {
+        margin: 20px 20px 0 0;
+        &:last-child {margin: 20px 0 0 0;}
+      }
+    }
+    @media screen and (max-width: $media-s) {
+      flex-direction: column;
+      img {
+        align-self: center;
+        margin: 20px 0 0 0;
+        &:last-child {display: none;}
+      }
     }
   }
 }
