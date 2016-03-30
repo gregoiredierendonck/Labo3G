@@ -20,9 +20,11 @@ navSlide = ->
 anchorLinks = ->
   $('a[href^="#"]').on 'click', (e) ->
     e.preventDefault()
+    header_height = $nav_header.outerHeight(true)
     target = @hash
     $target = $(target)
-    $('html, body').stop().animate { 'scrollTop': $target.offset().top }, 900, 'swing'
+    $('html, body').stop().animate { 'scrollTop': $target.offset().top - header_height - 20 }, 900, 'swing', ->
+      location.hash = target.replace('#', '')
 
 # Add small nav for small screen sizes
 smallMenu = ->

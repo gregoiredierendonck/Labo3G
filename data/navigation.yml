@@ -4,13 +4,13 @@ top:
 nav:
   -
     title: Actuellement
-    link: "#actuellement"
+    link: "#event"
   -
     title: La galerie
     link: "#lagalerie"
   -
     title: Le lieu
-    link: "#lieu"
+    link: "#lelieu"
   -
     title: L'association
     link: "#association"
@@ -18,8 +18,8 @@ nav:
     title: Exposer
     link: "#exposer"
   -
-    title: Nous soutenir
+    title: Soutenir
     link: "#soutenir"
   -
     title: Adresse & contact
-    link: "#contact"
+    link: "#adresse"

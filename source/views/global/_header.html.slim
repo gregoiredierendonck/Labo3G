@@ -1,14 +1,12 @@
 header id="header"
-  div class="headercontent"
-    = link_to data.navigation.top.title, data.navigation.top.link, class: "scrollup navlogo"
+	div class="contener"
+		= link_to data.navigation.top.title, data.navigation.top.link, class: "scrollup navlogo"
 
-    button type="button" role="button" aria-label="Toggle Navigation" data-navicon="button" class="icon-menu navicon navicon-x"
-      span class="navicon__lines"
+		button type="button" role="button" aria-label="Toggle Navigation" class="icon-menu"
 
-    nav role="navigation"
-      h1 class="visuallyhidden" Navigation principale
-      ul
-        - data.navigation.nav.each_with_index do |naventries|
-          / p class="scrollto" = naventries.title
-          li = link_to naventries.title, naventries.link
-
+		nav role="navigation"
+			h1 class="visuallyhidden" Navigation principale
+			ul
+				- data.navigation.nav.each_with_index do |naventries|
+					/ p class="scrollto" = naventries.title
+					li = link_to naventries.title, naventries.link
