@@ -2,7 +2,8 @@ header id="header"
 	div class="contener"
 		= link_to data.navigation.top.title, data.navigation.top.link, class: "scrollup navlogo"
 
-		button type="button" role="button" aria-label="Toggle Navigation" class="icon-menu"
+		button type="button" role="togglenav" aria-label="Toggle Navigation" class="icon-menu" id="navbutton"
+			span
 
 		nav role="navigation"
 			h1 class="visuallyhidden" Navigation principale

@@ -1,26 +1,27 @@
 $root = $('html')
-$nav_header = $('#header')
-$nav_header_links = $('#header nav ul li a')
-$navicon = $('[data-navicon="button"]')
 header_height = $('#header').height()
 hero_height = $('#accueil').height()
 offset_val = hero_height - header_height
+$navbutton = $('#navbutton')
+$header = $('#header')
+$header-link = $('#header a')
 eventType = if document.ontouchstart != null then 'click' else 'touchstart'
+
 
 # Header appear after scroll
 navSlide = ->
   scroll_top = $(window).scrollTop()
   if scroll_top >= offset_val
-    $nav_header.addClass 'is-sticky'
+    $header.addClass 'is-sticky'
   else
-    $nav_header.removeClass 'is-sticky'
+    $header.removeClass 'is-sticky'
   return
 
 # Scroll to anchor with animation
 anchorLinks = ->
   $('a[href^="#"]').on 'click', (e) ->
     e.preventDefault()
-    header_height = $nav_header.outerHeight(true)
+    header_height = $header.outerHeight(true)
     target = @hash
     $target = $(target)
     $('html, body').stop().animate { 'scrollTop': $target.offset().top - header_height - 20 }, 900, 'swing', ->
@@ -28,21 +29,23 @@ anchorLinks = ->
 
 # Add small nav for small screen sizes
 smallMenu = ->
-  if $(window).width() <= 860
-    $nav_header.addClass('smallmenu')
+  if $(window).width() <= 880
+    $header.addClass('is-small')
   else
-    $nav_header.removeClass('smallmenu')
+    $header.removeClass('is-small')
 
 # Open and close menu
 openMenu = ->
-  $navicon.click ->
-    $nav_header.toggleClass('isopen')
-  $nav_header_links.click ->
-    $nav_header.removeClass('isopen')
+  $(document).ready ->
+    $header.removeClass('is-open')
+  $navbutton.click ->
+    $header.toggleClass('is-open')
+  $header-link.click ->
+    $header.removeClass('is-open')
 
 # Actions
 $(window).scroll navSlide
 $(document).ready anchorLinks
 $(document).ready openMenu
-$(document).ready smallMenu
 $(window).resize smallMenu
+$(document).ready smallMenu
