@@ -55,6 +55,12 @@
     <priority>1</priority>
   </url>
   <url>
+    <loc>http://labo3g.fr/mentionslegales.html</loc>
+    <lastmod>2016-03-30T00:00:00+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>2</priority>
+  </url>
+  <url>
     <loc>http://labo3g.fr/views/adresse.html</loc>
     <lastmod>2016-03-30T00:00:00+02:00</lastmod>
     <changefreq>monthly</changefreq>
