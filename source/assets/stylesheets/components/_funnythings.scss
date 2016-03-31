@@ -1,3 +1,6 @@
+$funny-width: 20px;
+$funny-height: 2px;
+
 span.funnythings {
 
 	// INIT
@@ -7,24 +10,24 @@ span.funnythings {
 
 	// FORMS
 	&.square {
-		width: 15px;
-		height: 15px;
-		box-shadow: 0 0 0 2px $c2;
+		width: $funny-width / 1.3;
+		height: $funny-width / 1.3;
+		box-shadow: 0 0 0 $funny-height $c2;
 	}
 	&.diamant {
-		width: 12px;
-		height: 12px;
-		box-shadow: 0 0 0 2px $c2;
+		width: $funny-width / 1.4;
+		height: $funny-width / 1.4;
+		box-shadow: 0 0 0 $funny-height $c2;
 		transform: rotate(45deg);
 	}
 	&.cross {
-		  width: 20px;
-		  height: 2px;
+		  width: $funny-width;
+		  height: $funny-height;
 		  background: $c2;
 		&:after {
 			content: '';
-		  width: 20px;
-		  height: 2px;
+		  width: $funny-width;
+		  height: $funny-height;
 		  display: inline-block;
 		  position: absolute;
 		  background: $c2;
