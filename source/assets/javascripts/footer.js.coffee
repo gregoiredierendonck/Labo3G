@@ -12,9 +12,11 @@ Stellar = ->
   if window.matchMedia('(min-width: 860px)').matches
     $ ->
       $.stellar
-        horizontalScrolling: false
-        hideDistantElements: false
-        off
+        horizontalScrolling: false,
+        # hideDistantElements: false,
+        horizontalOffset: 0,
+        verticalOffset: 0,
+        # responsive:true
       return
   return
 
