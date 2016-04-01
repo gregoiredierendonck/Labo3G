@@ -1,4 +1,5 @@
 #= require "jquery.min"
 #= require "header"
+#= require "stellar"
 #= require "footer"
 #= require "analytics"
