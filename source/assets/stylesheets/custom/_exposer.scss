@@ -46,6 +46,17 @@
 	.imagecontener {
 		width: 100%;
 		display: flex;
+		position: relative;
+		.color {
+			width: 60%;
+			height: 60%;
+			display: inline-block;
+			background-color: $c2;
+			opacity: .4;
+			position: absolute;
+			top: 20%;
+			left: 10%;
+		}
 		.zone {
 			display: flex;
 			flex-direction: column;

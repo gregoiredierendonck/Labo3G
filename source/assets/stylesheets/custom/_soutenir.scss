@@ -1,4 +1,9 @@
 #soutenir {
+	position: relative;
+	.box {
+		position: relative;
+		z-index: 2;
+	}
 	.contener {
 		width: 100%;
 		max-width: $max-width;
@@ -25,6 +30,17 @@
 		margin-top: -40vh;
 		margin-bottom: 10vh;
 		text-align: center;
+		.color {
+			width: 30%;
+			height: 50%;
+			display: inline-block;
+			background-color: $c2;
+			opacity: .4;
+			position: absolute;
+			bottom: 5%;
+			right: 10%;
+			z-index: 1;
+		}
 		img {
 			margin-left: 10vw;
 			@media screen and (max-width: $media-m) {

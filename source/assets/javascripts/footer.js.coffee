@@ -3,8 +3,8 @@
 $RndmElmts = $('span.funnythings')
 PositionElmts = ->
   $RndmElmts.each ->
-    left = Math.floor((Math.random() * 100))
-    top = Math.floor((Math.random() * 100))
+    left = Math.floor((Math.random() * 90))
+    top = Math.floor((Math.random() * 90))
     $(this).css('top': top + '%', 'left': left + '%')
 
 # Stellar js

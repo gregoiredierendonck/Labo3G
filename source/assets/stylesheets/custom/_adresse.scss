@@ -37,6 +37,16 @@
 		position: absolute;
 		top: 0;
 		left: 0;
+		.color {
+			width: 50%;
+			height: 30%;
+			display: inline-block;
+			background-color: $c2;
+			opacity: .4;
+			position: absolute;
+			bottom: 20%;
+			left: 10%;
+		}
 		a {
 			margin-left: -20vw;
 			margin-top: -5vh;
