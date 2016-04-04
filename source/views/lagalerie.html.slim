@@ -3,7 +3,6 @@ section id="lagalerie" class="top-negativ"
 	div class="imagecontener"
 		- data.content.lagalerie.images.each_with_index do |image|
 			= image_tag "#{image.path}", alt: "#{data.settings.site.title} - #{image.title}"
-		span.color data-stellar-ratio="0.8"
 
 	div class="contener"
 		div class="box title bottom-negativ depth-1"

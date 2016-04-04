@@ -12,4 +12,3 @@ section id="soutenir" class="full-width"
 	div class="imagecontener"
 		- data.content.soutenir.images.each_with_index do |image|
 			= image_tag "#{image.path}", alt: "#{data.settings.site.title} - #{image.title}"
-		span.color data-stellar-ratio="1.2"
