@@ -2,6 +2,7 @@
 	position: relative;
 	.box {
 		position: relative;
+		margin-top: 10vh;
 		z-index: 2;
 	}
 	.contener {
@@ -10,15 +11,21 @@
 		margin: 0 auto;
 		display: flex;
 		align-items: center;
-		.h2, p {
+		.h2, .soutenir-text {
 			width: 50%;
 			margin-bottom: 0;
+		}
+		.soutenir-text {
+			padding-left: 20px;
 		}
 		@media screen and (max-width: $media-xl) {
 			flex-direction: column;
 			text-align: center;
-			.h2, p {
+			.h2, .soutenir-text {
 				width: 100%;
+			}
+			.soutenir-text {
+				padding-left: 0;
 			}
 			.h2 {
 				margin-bottom: 15px;
@@ -27,7 +34,7 @@
 	}
 	.imagecontener {
 		width: 100%;
-		margin-top: -40vh;
+		margin-top: -50vh;
 		margin-bottom: 10vh;
 		text-align: center;
 		.color {

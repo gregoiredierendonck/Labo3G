@@ -5,8 +5,9 @@ section id="soutenir" class="full-width"
 			h1 class="h2"
 				span class="small" = data.content.soutenir.title.small
 				= data.content.soutenir.title.big
-			p = data.content.soutenir.texte
-		= link_to data.content.soutenir.linktext, "#{data.content.soutenir.linkpath}", class:"button primary"
+			div class="soutenir-text"
+				p = data.content.soutenir.texte
+				= link_to data.content.soutenir.linktext, "#{data.content.soutenir.linkpath}", class:"button primary"
 
 	div class="imagecontener"
 		- data.content.soutenir.images.each_with_index do |image|
