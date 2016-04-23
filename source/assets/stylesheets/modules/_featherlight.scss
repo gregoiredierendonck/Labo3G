@@ -1,0 +1,73 @@
+.lightbox {
+	display: none;
+}
+.featherlight {
+	display: none;
+	position: fixed;
+	top: 0; right: 0; bottom: 0; left: 0;
+	z-index: 200;
+	text-align: center;
+	white-space: nowrap;
+	cursor: pointer;
+	background: $black;
+	background: rgba(0, 0, 0, 0);
+	&:last-of-type {
+		background: rgba(0, 0, 0, 0.8);
+	}
+	&:before {
+		content: '';
+		display: inline-block;
+		height: 100%;
+		vertical-align: middle;
+		margin-right: -0.25em;
+	}
+	.featherlight-content {
+		position: relative;
+		text-align: left;
+		vertical-align: middle;
+		display: inline-block;
+		overflow: auto;
+		padding: 60px 60px 40px;
+		border-bottom: 25px solid transparent;
+		margin-left: 5%;
+		margin-right: 5%;
+		max-height: 95%;
+		background: #fff;
+		cursor: auto;
+		white-space: normal;
+	}
+	.featherlight-inner {
+		display: block;
+	}
+	.featherlight-close-icon {
+		position: absolute;
+		z-index: 9999;
+		top: 20px;
+		right: 20px;
+		line-height: 25px;
+		width: auto;
+		cursor: pointer;
+		text-align: center;
+		font-family: Arial, sans-serif;
+		background: #fff;
+		background: rgba(255, 255, 255, 0.3);
+		color: $black;
+		font-size: 25px;
+		padding: 5px 8px;
+		border: 1px solid rgba(0, 0, 0, .1);
+		&:hover, &:focus {
+			border-color: $black;
+		}
+	}
+}
+
+/* handling phones and small screens */
+// @media only screen and (max-width: 1024px) {
+// 	.featherlight .featherlight-content {
+// 		margin-left: 10px;
+// 		margin-right: 10px;
+// 		max-height: 98%;
+// 		padding: 10px 10px 0;
+// 		border-bottom: 10px solid transparent;
+// 	}
+// }

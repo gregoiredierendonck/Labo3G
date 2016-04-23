@@ -6,7 +6,7 @@ section id="adresse"
       = data.content.adresse.title.big
   div class="box depth-2"
     p = data.content.adresse.texte
-    = link_to data.content.adresse.linktext, "#{data.settings.site.mapspath}", class:"button primary"
+    = link_to data.content.adresse.linktext, "#{data.settings.site.mapspath}", class:"button primary", target: '_blank'
 
   div class="imagecontener"
     = link_to data.settings.site.mapspath, target: '_blank' do

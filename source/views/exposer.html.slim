@@ -14,4 +14,10 @@ section id="exposer"
 				span class="small" = data.content.exposer.title.small
 		div class="box texte depth-2"
 			p = data.content.exposer.texte
-			= link_to data.content.exposer.linktext, "mailto:#{data.settings.site.email}", class:"button primary"
+			= link_to data.content.exposer.linktext, "mailto:#{data.settings.site.email}", :'data-featherlight' => '#exposer-lightbox', class:"button primary"
+
+	div id="exposer-lightbox" class="lightbox"
+		h2 
+			span class="small" = data.content.exposer.postulertitle
+		p = data.content.exposer.postulertexte
+		= link_to data.content.exposer.linkpostuler, "mailto:#{data.settings.site.email}", class:"button primary"

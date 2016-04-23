@@ -11,7 +11,7 @@ noevent:
 
 lagalerie:
   title:
-    small: "Galerie de"
+    small: "Galerie de "
     big: "Nouveaux Talents"
   texte: |
     Labo3g est une association à but non lucratif. 
@@ -40,7 +40,7 @@ lelieu:
     de la place Degeyter. Les accrochages répondent à des logiques différentes 
     à chaque exposition, l’esprit des laboratoires et des cabinets de curiosités 
     n’étant cependant jamais très éloigné…
-  linkpath: "#contact"
+  linkpath: "#adresse"
   linktext: "Nous rendre visite"
   images:
     -
@@ -58,9 +58,9 @@ association:
     L’association, née le 29 janvier 2013 et régie par la Loi du 1er janvier 1901, 
     comprend onze membres permanents; cinq d’entre eux sont des artistes 
     qui s’exposent en arrière-plan de nouveaux talents invités 
-    à chaque nouvelle exposition : Alain Puel (installations vidéos), 
-    Benoît Becquart (photographie), Pierre Kieffer (sculpture bois), 
-    Florian Dierendonck (huile), Théotime Dierendonck (street art).
+    à chaque nouvelle exposition : Alain Puel <i>(installations vidéos)</i>, 
+    Benoît Becquart <i>(photographie)</i>, Pierre Kieffer <i>(sculpture bois)</i>, 
+    Florian Dierendonck <i>(huile)</i>, Théotime Dierendonck <i>(street art)</i>.
   linktext: "Découvrir les membres"
   linkpath: "membres.html"
 
@@ -92,6 +92,17 @@ exposer:
   image3:
     path: "image-exposer-3.jpg"
     title: "exposer-3"
+  postulertitle: "Comment faire pour exposer à la galerie&nbsp;?"
+  postulertexte: |
+    Pour proposer votre candidature, envoyez un court dossier sous forme 
+    numérique à l’adresse bonjour@labo3g.fr.
+    <br/>
+    Ce dossier comportera vos coordonnées précises, 
+    des photographies significatives de vos productions 
+    (pas forcément celles qui seront exposées), 
+    et une courte présentation de votre démarche. 
+    Si vous avez un cv artistique, vous pouvez aussi le joindre&nbsp;! 
+  linkpostuler: "Envoyer les éléments"
 
 soutenir:
   title:
@@ -101,7 +112,7 @@ soutenir:
     Chaque euro reversé à la galerie sera investi dans des solutions d’accrochage 
     et d’aménagement de l’espace afin de faire rayonner 
     comme il se doit la création artistique lilloise&nbsp;!
-  linkpath: "http://www.google.com"
+  linkpath: "error"
   linktext: "Faire un don"
   images: 
     -
@@ -111,7 +122,7 @@ soutenir:
 adresse:
   title:
     small: "À Lille, au cœur de Fives, "
-    big: "Venir à la galerie"
+    big: "Nous trouver"
   texte: |
     La galerie Labo3g vous accueille pendant les périodes d’exposition 
     les vendredis de 17h à 20h, les samedis et dimanches de 16h à 20h au<br/>
