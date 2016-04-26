@@ -1,13 +1,13 @@
 section id="newsletter"
 
 	div class="box"
-	  
+
 	  h1 class="h2 text-center"
 		span class="small" = data.content.newsletter.title.small
 		= data.content.newsletter.title.big
 	  p class="text-center" = data.content.newsletter.texte
 
-	  form action="#{data.settings.mailchimp}" method="post" target="_blank"
-			input type="email" name="EMAIL" placeholder="#{data.content.newsletter.placeholder}" required="" autocapitalize="none" autocorrect="off"
-			button type="submit" name="subscribe" class="button primary"
+	  form action="#{data.settings.mailchimp}" method="post" name="mc-embedded-subscribe-form" target="_blank"
+			input type="email" name="EMAIL" placeholder="#{data.content.newsletter.placeholder}" required="" class="required email" id="mce-EMAIL" autocapitalize="none" autocorrect="off"
+			button type="submit" name="Subscribe" class="button primary" id="mc-embedded-subscribe"
 			 = data.content.newsletter.linktext
