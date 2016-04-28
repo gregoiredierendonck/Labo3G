@@ -8,6 +8,6 @@ section id="newsletter"
 	  p class="text-center" = data.content.newsletter.texte
 
 	  form action="#{data.settings.mailchimp}" method="post" name="mc-embedded-subscribe-form" target="_blank"
-			input type="email" name="EMAIL" placeholder="#{data.content.newsletter.placeholder}" required="" class="required email" id="mce-EMAIL" autocapitalize="none" autocorrect="off"
+			input type="texte" name="EMAIL" placeholder="#{data.content.newsletter.placeholder}" id="mce-EMAIL" autocapitalize="none" autocorrect="off"
 			button type="submit" name="Subscribe" class="button primary" id="mc-embedded-subscribe"
 			 = data.content.newsletter.linktext
