@@ -23,13 +23,3 @@ Stellar = ->
 # $(document).ready Stellar
 $(window).load PositionElmts
 $(window).load Stellar
-
-# Init Mailchimp js validation
-(($) ->
-  window.fnames = new Array
-  window.ftypes = new Array
-  fnames[0] = 'EMAIL'
-  ftypes[0] = 'email'
-  return
-) jQuery
-$mcj = jQuery.noConflict(true)
