@@ -2,23 +2,12 @@
 	<IfModule mod_rewrite.c>
 		RewriteEngine on
 		RewriteCond %{HTTP_HOST} ^rapsodiepro.com$ [OR]
-		RewriteCond %{HTTP_HOST} ^www.labo3g.fr/$
-		RewriteRule (.*) http://labo3g.fr//$1 [R=301,L]
+		RewriteCond %{HTTP_HOST} ^www.www.labo3g.fr/$
+		RewriteRule (.*) http://www.labo3g.fr//$1 [R=301,L]
 	</IfModule>
 
-# MOVE PERMANENTLY
-	Redirect 301 http://www.rapsodiepro.com/index.html http://www.rapsodie.pro/index.html
-	Redirect 301 http://www.rapsodiepro.com/videos.html http://www.rapsodie.pro/videos.html
-	Redirect 301 http://www.rapsodiepro.com/galerie.html http://www.rapsodie.pro/galerie.html
-	Redirect 301 http://www.rapsodiepro.com/membres.html http://www.rapsodie.pro/membres.html
-	Redirect 301 http://www.rapsodiepro.com/concerts.html http://www.rapsodie.pro/actus.html
-	Redirect 301 http://www.rapsodie.pro/videos.html http://www.rapsodie.pro/concerts.html
-	Redirect 301 http://www.rapsodie.pro/galerie.html http://www.rapsodie.pro/legroupe.html
-	Redirect 301 http://www.rapsodie.pro/membres.html http://www.rapsodie.pro/legroupe.html
-	Redirect 301 http://www.rapsodie.pro/actus.html http://www.rapsodie.pro/concerts.html
-
 # Redirection to 404
-	ErrorDocument 404 http://labo3g.fr//404.html
+	ErrorDocument 404 http://www.labo3g.fr//404.html
 
 # Gzip compression
 	<ifmodule mod_deflate.c>
