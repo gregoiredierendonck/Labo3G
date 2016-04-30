@@ -1,0 +1,6 @@
+.quatrecentquatre {
+	height: 100vh !important;
+	background-image: none !important;
+	h1 {color: $c1 !important;}
+	& + footer {display: none;}
+}

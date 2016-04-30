@@ -4,10 +4,8 @@ h2: " Galerie d’arts associative <br/>Promotion de nouveaux talents"
 noevent: 
   title:
     small: "Il n’y a pas exposition pour le moment"
-    big: "Labo3G vous donne rendez-vous en mai pour sa prochaine exposition"
   texte: |
-    Nous sommes actuellement en train de préparer notre prochaine exposition… 
-    Entrez votre adresse email et nous vous enverrons une invitation&nbsp;!
+    Entrez votre adresse email et nous vous enverrons une invitation pour la prochaine exposition&nbsp;!
 
 lagalerie:
   title:

@@ -1,11 +1,16 @@
 section id="noevent"
   
   div class="box"
+    
     h1 class="h2 center"
 		span class="small" = data.content.noevent.title.small
-		= data.content.noevent.title.big
     p class="center" = data.content.noevent.texte
-    form action="#{data.settings.mailchimp}" method="post" target="_blank"
-		input type="email" name="EMAIL" placeholder="#{data.content.newsletter.placeholder}" required="" autocapitalize="none" autocorrect="off"
-		button type="submit" name="subscribe" class="button primary"
-			= data.content.newsletter.linktext
+	
+	form action="#{data.settings.mailchimp}" method="post" name="mc-embedded-subscribe-form" target="_blank"
+		div class="form--form"
+			input type="texte" name="EMAIL" placeholder="#{data.content.newsletter.placeholder}" id="mce-EMAIL" autocapitalize="none" autocorrect="off"
+			button type="submit" name="Subscribe" class="button primary" id="mc-embedded-subscribe"
+			 = data.content.newsletter.linktext
+		div class="form--message"
+			p class="error" = data.content.newsletter.error
+			p class="valid" = data.content.newsletter.valid
