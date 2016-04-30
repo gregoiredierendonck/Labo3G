@@ -40,9 +40,3 @@ configure :build do
 	set :relative_links, true
 	ignore 'imageoptim.manifest.yml'
 end
-
-# rename file after build
-# View : http://coderwall.com/p/daflfq/generate-htaccess-in-middleman
-after_build do
-  File.rename 'build/.htaccess.apache', 'build/.htaccess'
-end

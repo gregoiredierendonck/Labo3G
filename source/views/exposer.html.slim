@@ -14,6 +14,9 @@ section id="exposer"
 				span class="small" = data.content.exposer.title.small
 		div class="box texte depth-2"
 			p = data.content.exposer.texte
+			ul class="ul-list" 
+				- data.content.exposer.liste.each_with_index do |listeelement|
+					li = listeelement.texte
 			= link_to data.content.exposer.linktext, "mailto:#{data.settings.site.email}", :'data-featherlight' => '#exposer-lightbox', class:"button primary"
 
 	div id="exposer-lightbox" class="lightbox"

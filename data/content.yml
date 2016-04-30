@@ -72,14 +72,13 @@ exposer:
     à son rayonnement !
     <br/><br/>
     Cela signifie :<br/>
-    <ul class="ul-list">
-    <li>Reverser 20% des ventes à l’association 
-    (aucune autre participation financière n’est demandée) ;</li>
-    <li>S’engager à fournir les œuvres pour l’accrochage 10 jours 
-    au minimum avant l’exposition ;</li>
-    <li>Être présent au vernissage et assurer au minimum deux permanences 
-    complètes.</li>
-    </ul>
+  liste:
+  -
+    texte: "Reverser 20% des ventes à l’association (aucune autre participation financière n’est demandée) ;"
+  -
+    texte: "S’engager à fournir les œuvres pour l’accrochage 10 jours au minimum avant l’exposition ;"
+  -
+    texte: "Être présent au vernissage et assurer au minimum deux permanences complètes."
   linktext: "Exposer à la galerie"
   image1:
     path: "image-exposer-1.jpg"
@@ -101,6 +100,7 @@ exposer:
     et une courte présentation de votre démarche. 
     Si vous avez un cv artistique, vous pouvez aussi le joindre&nbsp;! 
   linkpostuler: "Envoyer les éléments"
+
 
 soutenir:
   title:
