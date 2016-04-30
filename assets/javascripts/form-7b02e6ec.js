@@ -1,1 +1,0 @@
-$(document).ready(function(){function o(o){var e=/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;return e.test(o)}$("form").on("submit",function(e){e.preventDefault();var n=$("#mce-EMAIL").val();return""===$("#mce-EMAIL").val()&&console.log("vide"),o(n)?(console.log("ok"),!0):(console.log("faux"),void 0)})});
