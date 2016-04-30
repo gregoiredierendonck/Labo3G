@@ -35,6 +35,9 @@
 		background: #fff;
 		cursor: auto;
 		white-space: normal;
+		@media screen and (max-width: $media-sm) {
+			padding: 60px 30px 20px;
+		}
 	}
 	.featherlight-inner {
 		display: block;
@@ -60,14 +63,3 @@
 		}
 	}
 }
-
-/* handling phones and small screens */
-// @media only screen and (max-width: 1024px) {
-// 	.featherlight .featherlight-content {
-// 		margin-left: 10px;
-// 		margin-right: 10px;
-// 		max-height: 98%;
-// 		padding: 10px 10px 0;
-// 		border-bottom: 10px solid transparent;
-// 	}
-// }

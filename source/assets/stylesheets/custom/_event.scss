@@ -3,10 +3,9 @@
 	.h2 {margin-top: -20px;}
 	img {margin-bottom: 20px;}
 	@media screen and (max-width: $media-m) {
-		margin-bottom: 40px;
+		margin-bottom: 0;
 	}
 	@media screen and (max-width: $media-sm) {
-		margin-bottom: 60px;
 		.box:last-of-type {
 			align-self: center;
 			margin-left: 0;

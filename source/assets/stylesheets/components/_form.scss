@@ -7,10 +7,9 @@ form {
 	.form--form {
 		display: flex;
 		flex-direction: row;
-	}
-
-	@media screen and (max-width: $media-s) {
-		flex-direction: column;
+		@media screen and (max-width: $media-s) {
+			flex-direction: column;
+		}
 	}
 	input {
 		width: 100%;

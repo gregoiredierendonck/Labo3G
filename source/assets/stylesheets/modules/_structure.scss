@@ -5,14 +5,16 @@ body {
   display: inline-block;
 
   section {
-    width: 90%;
+    width: 100%;
     max-width: $max-width;
     height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 0 auto;
+    margin: -5vh auto;
+    padding: 5vh 5%;
+    overflow: hidden;
   }
 
   .box {
