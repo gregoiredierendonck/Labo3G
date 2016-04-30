@@ -1,9 +1,14 @@
 form {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	width: 100%;
 	max-width: 800px;
 	margin: 0 auto;
+	.form--form {
+		display: flex;
+		flex-direction: row;
+	}
+
 	@media screen and (max-width: $media-s) {
 		flex-direction: column;
 	}
@@ -33,6 +38,30 @@ form {
 			align-self: center;
 		}
 	}
+
+	p {
+		margin-bottom: 0 !important;
+		width: 100%;
+		display: none;
+		padding: 5px;
+		&:before {
+			content: '';
+			width: 20px;
+			height: 20px;
+			display: inline-block;
+			margin-right: 10px;
+			background-repeat: no-repeat;
+			background-size: 100% auto;
+			background-position: bottom center;
+			position: relative;
+			top: 5px;
+		}
+		&.valid {color: $green;border: 2px solid $green;padding: 15px;&:before{background-image: image-url('valid.svg');}}
+		&.error {color: $red;&:before{background-image: image-url('error.svg');}}
+	}
+	&.form--error {p.error {display: inline-block;}input{border-color: $red;}}
+	&.form--valid {p.valid {display: inline-block;}input, .button {display: none;}}
+
 	::-webkit-input-placeholder {font-style: italic; color: $gray;font-weight: $font-s;font-size: $font-s-m;}
 	::-moz-placeholder {font-style: italic; color: $gray;font-weight: $font-s;font-size: $font-s-m;}
 	:-ms-input-placeholder {font-style: italic; color: $gray;font-weight: $font-s;font-size: $font-s-m;}

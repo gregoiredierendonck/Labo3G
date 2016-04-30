@@ -162,5 +162,7 @@ newsletter:
     Recevez toute l’actualité Labo3G dans votre boîte mail... Que du bonheur&nbsp;!
   placeholder: "Votre adresse email…"
   linktext: "S'abonner"
+  error: "Oups... Veuillez vérifier votre adresse email."
+  valid: "Vous êtes désormais inscrit à la newsletter du Labo3G&nbsp;!"
 
 

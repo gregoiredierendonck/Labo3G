@@ -2,12 +2,17 @@ section id="newsletter"
 
 	div class="box"
 
-	  h1 class="h2 text-center"
-		span class="small" = data.content.newsletter.title.small
-		= data.content.newsletter.title.big
-	  p class="text-center" = data.content.newsletter.texte
+		h1 class="h2 text-center"
+			span class="small" = data.content.newsletter.title.small
+			= data.content.newsletter.title.big
+		p class="text-center" = data.content.newsletter.texte
 
-	  form action="#{data.settings.mailchimp}" method="post" name="mc-embedded-subscribe-form" target="_blank"
-			input type="texte" name="EMAIL" placeholder="#{data.content.newsletter.placeholder}" id="mce-EMAIL" autocapitalize="none" autocorrect="off"
-			button type="submit" name="Subscribe" class="button primary" id="mc-embedded-subscribe"
-			 = data.content.newsletter.linktext
+		form action="#{data.settings.mailchimp}" method="post" name="mc-embedded-subscribe-form" target="_blank"
+			div class="form--form"
+				input type="texte" name="EMAIL" placeholder="#{data.content.newsletter.placeholder}" id="mce-EMAIL" autocapitalize="none" autocorrect="off"
+				button type="submit" name="Subscribe" class="button primary" id="mc-embedded-subscribe"
+				 = data.content.newsletter.linktext
+			div class="form--message"
+				p class="error" = data.content.newsletter.error
+				p class="valid" = data.content.newsletter.valid
+
