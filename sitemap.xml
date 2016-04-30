@@ -7,87 +7,15 @@
     <priority>3</priority>
   </url>
   <url>
-    <loc>http://www.labo3g.fr/views/soutenir.html</loc>
+    <loc>http://www.labo3g.fr/index.html</loc>
     <lastmod>2016-04-30T00:00:00+02:00</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.labo3g.fr/views/no-event.html</loc>
-    <lastmod>2016-04-30T00:00:00+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.labo3g.fr/views/newsletter.html</loc>
-    <lastmod>2016-04-30T00:00:00+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.labo3g.fr/views/lelieu.html</loc>
-    <lastmod>2016-04-30T00:00:00+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.labo3g.fr/views/lagalerie.html</loc>
-    <lastmod>2016-04-30T00:00:00+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.labo3g.fr/views/hero-intro.html</loc>
-    <lastmod>2016-04-30T00:00:00+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.labo3g.fr/views/funnythings.html</loc>
-    <lastmod>2016-04-30T00:00:00+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.labo3g.fr/views/exposer.html</loc>
-    <lastmod>2016-04-30T00:00:00+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.labo3g.fr/views/event-event.html</loc>
-    <lastmod>2016-04-30T00:00:00+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.labo3g.fr/views/contact.html</loc>
-    <lastmod>2016-04-30T00:00:00+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.labo3g.fr/views/association.html</loc>
-    <lastmod>2016-04-30T00:00:00+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.labo3g.fr/views/adresse.html</loc>
-    <lastmod>2016-04-30T00:00:00+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>1</priority>
   </url>
   <url>
     <loc>http://www.labo3g.fr/mentionslegales.html</loc>
     <lastmod>2016-04-30T00:00:00+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>2</priority>
-  </url>
-  <url>
-    <loc>http://www.labo3g.fr/index.html</loc>
-    <lastmod>2016-04-30T00:00:00+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1</priority>
   </url>
 </urlset>
