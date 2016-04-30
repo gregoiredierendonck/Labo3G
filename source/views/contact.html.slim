@@ -1,6 +1,6 @@
 section id="contact"
 
-  div class="box"
+  div class="box" style="margin-bottom: 0 !important;"
     h1 class="h2"
       span class="small" = data.content.contact.title.small
       = data.content.contact.title.big
@@ -9,5 +9,5 @@ section id="contact"
       = link_to data.content.contact.linktext, "mailto:#{data.settings.site.email}", class:"button primary"
 
   div class="imagecontener"
-    - data.content.contact.images.each_with_index do |image|
-      = image_tag "#{image.path}", alt: "#{data.settings.site.title} - #{image.title}"
+    / - data.content.contact.images.each_with_index do |image|
+    /   = image_tag "#{image.path}", alt: "#{data.settings.site.title} - #{image.title}"
