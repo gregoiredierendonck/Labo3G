@@ -7,7 +7,7 @@ section id="soutenir" class="full-width"
 				= data.content.soutenir.title.big
 			div class="soutenir-text"
 				p = data.content.soutenir.texte
-				= link_to data.content.soutenir.linktext, "#{data.content.soutenir.linkpath}", class:"button primary"
+				= link_to data.content.soutenir.linktext, "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=bonjour%40labo3g%2efr&lc=FR&item_name=Labo3g&no_note=0&currency_code=EUR&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest", class:"button primary", target:"_blank"
 
 	div class="imagecontener"
 		- data.content.soutenir.images.each_with_index do |image|
