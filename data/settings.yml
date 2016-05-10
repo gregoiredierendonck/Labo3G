@@ -6,7 +6,7 @@ site:
   domain: www.labo3g.fr/
   author: Grégoire Dierendonck
   email: "bonjour@labo3g.fr"
-  mapspath: "https://www.google.fr/maps/place/15+Rue+de+Lannoy,+59800+Lille/@50.6335118,3.0889856,17z/data=!3m1!4b1!4m2!3m1!1s0x47c2d5f9611731c3:0x917462cdce743a6a"
+  mapspath: "https://www.google.fr/maps/place/Galerie+Labo3g/@50.6335118,3.0889856,17z/data=!3m1!4b1!4m5!3m4!1s0x47c2d5f9611731c3:0x859536423bf1e42b!8m2!3d50.6335084!4d3.0911743"
 
 footer:
   copyright: "© Labo3G 2016"
