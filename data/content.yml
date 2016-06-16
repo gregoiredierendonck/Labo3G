@@ -1,21 +1,21 @@
 h1: "Labo3G"
 h2: " Galerie d’arts associative <br/>Promotion de nouveaux talents"
 
-noevent: 
+noevent:
   title:
-    small: "Il n’y a pas exposition pour le moment"
+    small: "Labo3g vous donne rendez-vous en octobre<br/>pour sa prochaine exposition"
   texte: |
-    Entrez votre adresse email et nous vous enverrons une invitation pour la prochaine exposition&nbsp;!
+    D'ici là, restez informé de toute l'actualité de la galerie par email grâce à notre newsletter&nbsp;!
 
 lagalerie:
   title:
     small: "Galerie de "
     big: "Nouveaux Talents"
   texte: |
-    Labo3g est une association à but non lucratif. 
-    Elle valorise la promotion de nouveaux talents 
-    – non professionnels ou professionnels débutants – 
-    en leur permettant d’exposer leurs œuvres dans tous les domaines 
+    Labo3g est une association à but non lucratif.
+    Elle valorise la promotion de nouveaux talents
+    – non professionnels ou professionnels débutants –
+    en leur permettant d’exposer leurs œuvres dans tous les domaines
     des arts visuels, dans un esprit d’échanges et de convivialité.
   images:
     -
@@ -33,10 +33,10 @@ lelieu:
     small: "Un "
     big: "Lieu unique"
   texte: |
-    Labo3g se présente comme une galerie d’environ 35 mètres carrés, 
-    située face à la station de métro « Fives » et à proximité directe 
-    de la place Degeyter. Les accrochages répondent à des logiques différentes 
-    à chaque exposition, l’esprit des laboratoires et des cabinets de curiosités 
+    Labo3g se présente comme une galerie d’environ 35 mètres carrés,
+    située face à la station de métro « Fives » et à proximité directe
+    de la place Degeyter. Les accrochages répondent à des logiques différentes
+    à chaque exposition, l’esprit des laboratoires et des cabinets de curiosités
     n’étant cependant jamais très éloigné…
   linkpath: "#adresse"
   linktext: "Nous rendre visite"
@@ -53,11 +53,11 @@ association:
     small: "L' "
     big: "Association"
   texte: |
-    L’association, née le 29 janvier 2013 et régie par la Loi du 1er janvier 1901, 
-    comprend onze membres permanents; cinq d’entre eux sont des artistes 
-    qui s’exposent en arrière-plan de nouveaux talents invités 
-    à chaque nouvelle exposition : Alain Puel <i>(installations vidéos)</i>, 
-    Benoît Becquart <i>(photographie)</i>, Pierre Kieffer <i>(sculpture bois)</i>, 
+    L’association, née le 29 janvier 2013 et régie par la Loi du 1er janvier 1901,
+    comprend onze membres permanents; cinq d’entre eux sont des artistes
+    qui s’exposent en arrière-plan de nouveaux talents invités
+    à chaque nouvelle exposition : Alain Puel <i>(installations vidéos)</i>,
+    Benoît Becquart <i>(photographie)</i>, Pierre Kieffer <i>(sculpture bois)</i>,
     Florian Dierendonck <i>(huile)</i>, Théotime Dierendonck <i>(street art)</i>.
   linktext: "Découvrir les membres"
   linkpath: "membres.html"
@@ -67,8 +67,8 @@ exposer:
     big: "Exposer"
     small: " à la galerie"
   texte: |
-    Exposer à labo3g, c’est s’impliquer dans une démarche portée par des bénévoles 
-    qui cherchent à promouvoir des jeunes talents, c’est s’engager à contribuer 
+    Exposer à labo3g, c’est s’impliquer dans une démarche portée par des bénévoles
+    qui cherchent à promouvoir des jeunes talents, c’est s’engager à contribuer
     à son rayonnement !
     <br/><br/>
     Cela signifie :<br/>
@@ -91,14 +91,14 @@ exposer:
     title: "exposer-3"
   postulertitle: "Comment faire pour exposer à la galerie&nbsp;?"
   postulertexte: |
-    Pour proposer votre candidature, envoyez un court dossier sous forme 
+    Pour proposer votre candidature, envoyez un court dossier sous forme
     numérique à l’adresse bonjour@labo3g.fr.
     <br/>
-    Ce dossier comportera vos coordonnées précises, 
-    des photographies significatives de vos productions 
-    (pas forcément celles qui seront exposées), 
-    et une courte présentation de votre démarche. 
-    Si vous avez un cv artistique, vous pouvez aussi le joindre&nbsp;! 
+    Ce dossier comportera vos coordonnées précises,
+    des photographies significatives de vos productions
+    (pas forcément celles qui seront exposées),
+    et une courte présentation de votre démarche.
+    Si vous avez un cv artistique, vous pouvez aussi le joindre&nbsp;!
   linkpostuler: "Envoyer les éléments"
 
 
@@ -107,12 +107,12 @@ soutenir:
     small: "Notre concept vous plait&nbsp;? "
     big: "Soutenir la galerie"
   texte: |
-    Chaque euro reversé à la galerie sera investi dans des solutions d’accrochage 
-    et d’aménagement de l’espace afin de faire rayonner 
+    Chaque euro reversé à la galerie sera investi dans des solutions d’accrochage
+    et d’aménagement de l’espace afin de faire rayonner
     comme il se doit la création artistique lilloise&nbsp;!
   linkpath: "error"
   linktext: "Faire un don"
-  images: 
+  images:
     -
       path: "image-soutenir-1.jpg"
       title: "soutenir-1"
@@ -122,7 +122,7 @@ adresse:
     small: "À Lille, au cœur de Fives, "
     big: "Nous trouver"
   texte: |
-    La galerie Labo3g vous accueille pendant les périodes d’exposition 
+    La galerie Labo3g vous accueille pendant les périodes d’exposition
     les vendredis de 17h à 20h, les samedis et dimanches de 16h à 20h au<br/>
     <span class="">
     Galerie Labo3G<br/>
@@ -134,7 +134,7 @@ adresse:
     Métro Fives Ligne 1
     </span>
   linktext: "Voir sur une carte"
-  images: 
+  images:
       path: "image-contact-1.jpg"
       title: "adresse-1"
 
@@ -143,11 +143,11 @@ contact:
     small: "Envie de discuter&nbsp;? "
     big: "Nous contacter"
   texte: |
-    Besoin d’informations supplémentaire ? Envi de discuter d’un projet&nbsp;? 
-    Nous sommes à votre disposition par email… 
+    Besoin d’informations supplémentaire ? Envi de discuter d’un projet&nbsp;?
+    Nous sommes à votre disposition par email…
     Laissez-nous votre message, nous reviendrons vers vous au plus vite.
   linktext: "Nous contacter"
-  images: 
+  images:
     -
       path: "image-contact-2.jpg"
       title: "contact-1"
