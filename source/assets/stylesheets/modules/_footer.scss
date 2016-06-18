@@ -1,7 +1,8 @@
 $footerimageheight: 40vh;
 
 footer {
-	margin-top: - $footerimageheight / 2;
+	// margin-top: - $footerimageheight / 2;
+	margin-top: 0;
 	.footer-infos {
 		width: 100%;
 		display: inline-block;

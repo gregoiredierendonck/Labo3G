@@ -38,6 +38,8 @@ $img-size-l: 220px;
 	.imagecontener {
 		width: 100%;
 		margin-bottom: 5vh;
+		display: flex;
+		justify-content: center;
 		@media screen and (max-width: $media-l) {
 			width: 100%;
 			height: $img-size-l;
@@ -54,10 +56,10 @@ $img-size-l: 220px;
 		img {
 			width: 80%;
 			float: right;
+			align-self: center;
 			@media screen and (max-width: $media-l) {
 				width: auto;
 				max-width: none;
-				min-width: 100%;
 				height: 100%;
 				float: left;
 				margin: 0;
