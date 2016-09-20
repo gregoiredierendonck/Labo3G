@@ -5,15 +5,15 @@
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>http://www.labo3g.fr/index.html</loc>
-    <priority>1</priority>
+    <loc>http://www.labo3g.fr/google70dd1323fe3986f0.html</loc>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.labo3g.fr/mentionslegales.html</loc>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>http://www.labo3g.fr/google70dd1323fe3986f0.html</loc>
-    <priority>0.5</priority>
+    <loc>http://www.labo3g.fr/index.html</loc>
+    <priority>1</priority>
   </url>
 </urlset>
