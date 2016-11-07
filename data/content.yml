@@ -3,9 +3,9 @@ h2: " Galerie d’arts associative <br/>Promotion de nouveaux talents"
 
 noevent:
   title:
-    small: "Labo3g vous donne rendez-vous en octobre<br/>pour sa prochaine exposition"
+    small: "Labo3g revient très bientôt pour sa prochaine exposition"
   texte: |
-    D'ici là, restez informé de toute l'actualité de la galerie par email grâce à notre newsletter&nbsp;!
+    Inscrivez-vous à notre newsletter, et soyez informé du prochain événement par email&nbsp;!
 
 lagalerie:
   title:
@@ -162,5 +162,3 @@ newsletter:
   linktext: "S'abonner"
   error: "Oups... Veuillez vérifier votre adresse email."
   valid: "Vous êtes désormais inscrit à la newsletter du Labo3G&nbsp;!"
-
-
