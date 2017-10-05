@@ -5,16 +5,8 @@ section id="event"
     h3 class="h3 center" = data.event.subtitle
     = image_tag data.event.image, alt:"Labo3G - #{data.event.title}"
     p = data.event.texte
-    h4 class="h4 center" = data.event.titlethree
-    p = data.event.textethree
-    h4 class="h4 center" = data.event.titletwo
+    p = data.event.list
     p = data.event.textetwo
-  
-  div id="propal-lightbox" class="lightbox"
-    h2 
-      span class="small" = data.event.propaltitle
-    p = data.event.propaltexte
-  
+
   div class="box auto top-negativ left-align margin-left"
     = link_to data.event.linktext, "#{data.event.linkpath}", class: "button primary"
-    
